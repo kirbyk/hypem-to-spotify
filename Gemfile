@@ -5,7 +5,7 @@ gem 'mongo', '~> 2.2'
 gem 'sinatra', require: false
 gem 'sinatra-contrib', require: false
 gem 'haml'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 gem 'json'
 gem 'httparty'
 gem 'will_paginate', '~> 3.1.0'
