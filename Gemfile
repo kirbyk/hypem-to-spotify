@@ -5,7 +5,7 @@ gem 'mongo', '~> 2.2'
 gem 'sinatra', require: false
 gem 'sinatra-contrib', require: false
 gem 'haml'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.8.2'
 gem 'json'
 gem 'httparty'
 gem 'will_paginate', '~> 3.1.0'
@@ -19,6 +19,6 @@ group :development do
   gem 'pry-byebug'
   gem 'rerun'
   gem 'dotenv'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
 end
