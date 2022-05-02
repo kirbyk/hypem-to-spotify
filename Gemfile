@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rspotify', github: "scottopell/rspotify"
 gem 'mongo', '~> 2.2'
-gem 'sinatra', require: false
-gem 'sinatra-contrib', require: false
+gem 'sinatra', '>= 2.2.0', require: false
+gem 'sinatra-contrib', '>= 2.2.0', require: false
 gem 'haml'
 gem 'nokogiri'
 gem 'json'
