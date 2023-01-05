@@ -7,7 +7,7 @@ gem 'sinatra-contrib', require: false
 gem 'haml'
 gem 'nokogiri'
 gem 'json'
-gem 'httparty'
+gem 'httparty', '>= 0.21.0'
 gem 'will_paginate', '~> 3.1.0'
 
 gem 'i18n'
