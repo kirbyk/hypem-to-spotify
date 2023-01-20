@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rspotify', github: "scottopell/rspotify"
 gem 'mongo', '~> 2.2'
-gem 'sinatra', require: false
-gem 'sinatra-contrib', require: false
+gem 'sinatra', '>= 2.0.0', require: false
+gem 'sinatra-contrib', '>= 2.0.0', require: false
 gem 'haml'
 gem 'nokogiri'
 gem 'json'
@@ -11,7 +11,7 @@ gem 'httparty'
 gem 'will_paginate', '~> 3.1.0'
 
 gem 'i18n'
-gem 'activesupport', require: 'active_support/time'
+gem 'activesupport', '>= 6.1.7.1', require: 'active_support/time'
 
 group :development do
   gem 'awesome_print'
