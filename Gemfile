@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rspotify', github: "scottopell/rspotify"
 gem 'mongo', '~> 2.2'
-gem 'sinatra', require: false
-gem 'sinatra-contrib', require: false
+gem 'sinatra', '>= 2.0.0', require: false
+gem 'sinatra-contrib', '>= 2.0.0', require: false
 gem 'haml'
 gem 'nokogiri'
 gem 'json'
@@ -19,6 +19,6 @@ group :development do
   gem 'pry-byebug'
   gem 'rerun'
   gem 'dotenv'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.2.0'
   gem 'binding_of_caller'
 end
